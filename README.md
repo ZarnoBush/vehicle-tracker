@@ -30,7 +30,7 @@ Dart – Programming language
 sh
 Copy
 Edit
-git clone https://github.com/your-repo.git
+git clone https://github.com/ZarnoBush/vehicle-tracker
 cd flutter_getx_mapbox
 flutter pub get
 flutter run
