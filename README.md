@@ -1,16 +1,43 @@
-# vehicle_tracking
+🚗 Flutter GetX & Mapbox Vehicle Tracking Solution
 
-A new Flutter project.
+A Flutter app that visualizes a vehicle's path using GetX for state management and Mapbox for mapping. It reads GPS data from PathTravelled.json, plots the route, and calculates key metrics like total distance traveled and maximum speed recorded. The app also identifies and highlights the closest store from storesCopy.csv.
 
-## Getting Started
+✨ Features
 
-This project is a starting point for a Flutter application.
+✅ Visualizes Vehicle Path on a Mapbox map.
 
-A few resources to get you started if this is your first Flutter project:
+✅ Displays Timestamp, Speed & Heading on click.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Highlights the Closest Store to the vehicle's path.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Calculates Key Metrics (total distance, max speed, first encounter timestamp).
+
+✅ Responsive UI for both desktop & mobile.
+
+📦 Tech Stack
+
+Flutter – UI framework
+
+GetX – State management
+
+Mapbox GL – Mapping library
+
+Geolocator – Distance & GPS calculations
+
+Dart – Programming language
+
+🚀 Installation
+sh
+Copy
+Edit
+git clone https://github.com/your-repo.git
+cd flutter_getx_mapbox
+flutter pub get
+flutter run
+
+🔥 Future Improvements
+Real-time GPS tracking
+Enhanced UI/UX with animations
+User-defined store search
+
+👨‍💻 Author: Zarno Bushula
